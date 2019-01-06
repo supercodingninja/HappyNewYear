@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Sacramento|Satisfy);
+
+html { 
+  background:  url(./Img/Boost-productivity.png) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.i1 {
+  position: relative;
+  overflow: hidden;
+  padding-top: auto;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Satisfy', cursive;
+  font-size: auto;
+  margin: auto;
+  color: rgba(200, 196, 196, 0.781);
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Satisfy', cursive;
+  font-size: auto;
+  margin: auto;
+  color: rgba(200, 196, 196, 0.781);
+}

@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Sacramento|Satisfy);
+
+html { 
+  background:  url(./Vid_gif/myVid.gif) repeat center fixed; 
+  background-size: auto 720px;
+}
+
+/* h1 {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Satisfy', cursive;
+  font-size: auto;
+  margin: 30px 560px;
+  color: rgba(200, 196, 196, 0.781);
+} */
+
+h1 {
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      3px 3px 0 #200,
+    -1px -1px 0 #196,  
+     1px -1px 0 #196,
+     -1px 1px 0 #333333,
+      1px 1px 0 #229;
+  font-family: 'Pacifico', cursive;
+  /* font-family: 'Great Vibes', cursive; */
+  /* font-family: 'Sacramento', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  font-size: 32px;
+  display: block;
+  margin: 60px 30px;
+  }
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Satisfy', cursive;
+  font-size: auto;
+  display: inline;
+  margin: 2px 165px;
+  color: rgba(200, 196, 196, 0.781);
+}
+
+.Me .me {
+  /* -webkit-text-stroke: 1px black; */
+  color: white;
+  /* text-shadow:
+      3px 3px 0 #200,
+    -1px -1px 0 #196,  
+     1px -1px 0 #196,
+     -1px 1px 0 #333333,
+      1px 1px 0 #229; */
+  /* background-image: url("./Img/Fam.jpg"); */
+  /* float: left; */
+  font-family: 'Satisfy', cursive;
+  font-size: 32px:
+  margin: 56px 5px;
+  border: none;
+  border-radius: 25%;
+  cursor: pointer;
+  /* transition-property: transform;
+  transition-delay: ;
+  transition-delay: ; */
+  transition: transform .5s ease-in-out;
+  /* justify-content: center;
+  align-content: center; */
+} */
+
+.Me:hover { */
+  /* background-image: url("./Img/Fam.jpg"); */
+  transform: scale(.5s);
+  animation-name: race;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
+} */
+  
+/*---------------------------------------------------------------------------------------------                                     Animation Effects                                ---------------------------------------------------------------------------------------------*/
+  @keyframes race {
+      .9%, 100% {
+          transform: translateY(10px);
+          /* background-image: url("./Img/Fam.jpg"); */
+      }
+  
+      50% {
+          transform: translateY(330px);
+      }
+  }
+}
